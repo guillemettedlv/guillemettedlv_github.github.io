@@ -1,0 +1,117 @@
+body{
+	background: (255,255,255);
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+.header
+{
+	font-size: 15px;
+	color: black;
+	position: relative;
+	height: 40px;
+}
+
+.header .header-text {
+	display: flex;
+	color: black;
+	position: absolute;
+	right: 10px;
+}
+
+.header .header-text img {
+	width: 50px;
+	height: 50px;
+	margin-top: -18px;
+}
+
+
+.header .header-text > div {
+	margin: 10px;
+}
+
+.header .header-text:hover {
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(128,128,128);
+	border: 2px;
+}
+
+.centre {
+	text-align: center;
+	margin: 200px auto 200px auto;
+}
+
+.centre .recherche {
+	margin-top: 20px;
+}
+
+.centre .boutons {
+	margin-top: 20px;
+}
+
+.centre .recherche input {
+	width: 400px;
+	height: 40px;
+	border-radius: 50px;
+	border: 1px solid rgb(128,128,128);
+}
+
+.centre .recherche input:hover {
+	border: 0px;
+	box-shadow: 2px 2px 2px 2px rgb(128,128,128);
+}
+
+.boutons button {
+	padding: 5px;
+	border: 0px;
+	width: 151px;
+	height: 38px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+.boutons button:hover {
+	border: 1px solid rgb(128,128,128);
+}
+
+.footer {
+	background-color: #f2f2f2;
+	color: rgb(128,128,128);
+	margin: 150px auto -50px auto;
+	position: sticky;
+}
+
+.footer .footer1 {
+	height: 20px;
+}
+
+.footer .footer-bas .footer2 {
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .footer-bas .footer3 {
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .footer-bas .footer2 > div {
+	width: auto;
+	margin-left: 10px; 
+}
+
+.footer .footer-bas .footer3 > div {
+	width: auto;
+	margin-left: 10px; 
+}
+
+.footer .footer-bas {
+	display: flex;
+	justify-content: space-between;
+}
